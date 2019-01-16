@@ -1,43 +1,13 @@
-/* Extra Large Devices */
-@media only screen and (max-width: 1200px) {
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 992px) {
 
-	.right-text {
-		margin: 30px 0 0 0;
+	.frame {
+		width: 768px;
+		border-top: 5px solid #9B51E0;
+		padding: 0 25px;
 	}
 
-	.middle-text {
-		margin: 30px 0 30px 0;	
-	}
-
-	.main-image__heading {
-		width: 60%;
-		font-size: 3em;
-	}
-
-	.main-image__paragraph {
-		width: 45%;
-	}
-
-}
-
-@media only screen and (max-width: 992px) {
-	.main-image__heading {
-		width: 70%;
-	}
-
-	.main-image__paragraph {
-		width: 50%;
-	}
-}
-
-/* Medium Devices */
-@media only screen and (max-width: 768px) {
-
-	.header_padding {
-		padding: 0 15px 0 15px;
-	}
-
-	/* header */
+/* header */
 	.header-logo {
 		margin: 20px 0 0 0;
 	}
@@ -46,24 +16,28 @@
 		margin: 30px 0 0 0;
 	}
 
-	.navigation-menu__main-link_style {
-		margin: 0 0 0 15px;
-	}
-
 	.top-list__item {
 		margin-left: 16px;
 		font-size: 14px;
 	}
 
-/* main-image block*/
 	.main-image {
-		max-width: 95.83%;
+		width: 100%;
 		margin-top: 15px;
-		padding: 0 0 0 0;
+		padding: 25px 0 0 25px;
 	}
 
 	.main-image__heading {
-		font-size: 50px;
+		font-size: 48px;
+	}
+
+	.main-image__paragraph {
+		width: 330px;
+		margin-top: 10px;
+	}
+
+	.main-image__link {
+		margin-top: 15px;
 	}
 
 /* main-content */
@@ -72,20 +46,17 @@
 		margin: 0 auto;
 	}
 
-	.main-content_margin-top {
-		margin: 0;
-	}
-
 /* top-block */
 	.top-block {
 		margin-top: 15px;
 	}
-	
-	.left-text {
-		margin: 20px 0 0 0;
-	}
+
 	.right-text {
-		margin: 20px 0 0 0;
+		margin-top: 15px;
+	}
+
+	.middle-block {
+		margin-top: 15px;
 	}
 
 /* bottom-block */
@@ -94,25 +65,24 @@
 	}
 
 	.outside-text {
-		margin: 20px auto 0 auto;
+		margin: 15px auto 0 auto;
 	}
 
 	.middle-text {
-		margin: 20px auto 0 auto;
+		margin: 15px auto 0 auto;
 	}
 
 /* clients-block */
 	.clients-block {
-	
-		margin-top: 20px;
+		margin-top: 15px;
 	}
 
 	.big-rectangle {
-		width: 554px;
+		width: 380px;
 	}
 
 	.clients-block__image {
-		margin-left: 0;
+		margin-left: 19px;
 	}
 
 	.clients-block__image:nth-of-type(4) {
@@ -120,26 +90,24 @@
 	}
 
 	.footer {
-		max-width: 100%;
+		width: 768px;
+		margin-left: -25px;
 	}
 
-} /* end @media only screen and (max-width : 768px) */
+} /* end @media only screen and (max-width : 992px) */
 
 
-/* Small Devices */
-@media only screen and (max-width: 576px) {
+/* Small Devices, Mobiles */
+@media only screen and (max-width : 576px) {
 
-	.container {
-		max-width: 320px;
-	}
-
-	.header_padding {
+	.frame {
+		width: 320px;
+		border-top: 5px solid #9B51E0;
 		padding: 0;
 	}
 
-	/* header */
+/* header */
 	.header-logo {
-		width: 170px;
 		margin: 15px auto 0 auto;
 	}
 
@@ -147,28 +115,35 @@
 		margin: 15px auto 0 auto;
 	}
 
-	.navigation-menu {
-		margin: 10px 0 10px 0;
+	.top-list {
+		height: 80px;
 	}
 
 	.top-list__item {
-		margin-left: 5px;
 		font-size: 12px;
-	}
-
-	.top-list__item:nth-of-type(5) {
-		margin-left: 30px;
+		margin-left: 10px;
 	}
 
 	.navigation-menu__main-link_style {
-		margin: 0 0 0 -10px;
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		margin-bottom: 7px;
+	}
+
+	.top-list__item:nth-of-type(2) {
+		margin-left: 20px;
+	}
+
+	.top-list__item:nth-of-type(5) {
+		margin-left: 25px;
 	}
 
 /* main-image block */
 	.main-image {
-		max-width: 100%;
-		margin: 0;
-		padding: 0;
+		width: 100%;
+		margin-top: 20px;
+		padding: 25px 15px 0 15px;
 	}
 
 	.main-image__heading {
@@ -176,17 +151,16 @@
 		height: 85px;
 		font-size: 36px;
 		text-align: center;
-		margin: 15px 0 0 0;
 	}
 
 	.main-image__paragraph {
-		width: 280px;
+		width: 90%;
 		text-align: justify;
 		margin: 15px auto 0 auto;
 	}
 
 	.main-image__link {
-		margin: 15px auto 0 auto;
+		margin: 25px auto 0 auto;
 	}
 
 /* main-content blok */
@@ -242,9 +216,26 @@
 		width: 230px;
 	}
 
+	.clients-block__image {
+		margin-left: 38px;
+	}
+
+	.clients-block__image:nth-of-type(3) {
+		margin: 0 auto;
+	}
+
+	.clients-block__image:nth-of-type(4) {
+		margin: 0 auto;
+	}
+
+	.clients-block__image:nth-of-type(5) {
+		margin: 10px 0 10px 88px;
+	}
+
+
 	.footer {
 		width: 100%;
-		margin: 25px 0 0 0;	
-	} /* end @media only screen and (max-width : 576px) */
+		margin: 0;	
+	}
 
-}
+} /* end @media only screen and (max-width : 576px) */
