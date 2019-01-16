@@ -1,4 +1,4 @@
-# Project_theme_3
+# Projects
 
 Создал проект по теме 3.
 
