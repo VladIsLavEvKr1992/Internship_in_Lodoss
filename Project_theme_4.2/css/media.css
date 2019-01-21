@@ -58,6 +58,10 @@
 		margin: 15px auto 0 auto;
 	}
 
+	.text-block_size_small:last-of-type {
+		margin: 15px auto 15px auto;
+	}
+
 	.main-content:last-of-type {
 		margin-top: 15px;
 	}
@@ -78,8 +82,13 @@
 		margin: 0 35px 10px 0;
 	}
 
+	.audio-block {
+		margin: 15px auto 0 auto;
+	}
+
 	.footer {
 		width: 768px;
+		margin-top: 15px;
 		margin-left: -25px;
 	}
 
@@ -184,6 +193,24 @@
 
 	.main-content__image:last-of-type {
 		margin: 10px auto 15px auto;
+	}
+
+	.text-block_size_small:last-of-type {
+		margin: 15px auto 15px auto;
+	}
+
+	.audio-block {
+		width: 310px;
+		height: 66px;
+		box-sizing: border-box;
+		margin: 15px auto 0 auto;
+	}
+
+	.video-block {
+		width: 310px;
+		height: 180px;
+		box-sizing: border-box;
+		margin: 15px auto 15px auto;
 	}
 
 
