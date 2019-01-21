@@ -58,6 +58,10 @@
 		margin: 15px auto 0 auto;
 	}
 
+	.text-block_size_small:last-of-type {
+		margin: 15px auto 15px auto;
+	}
+
 	.main-content:last-of-type {
 		margin-top: 15px;
 	}
@@ -78,8 +82,10 @@
 		margin: 0 35px 10px 0;
 	}
 
+	
 	.footer {
 		width: 768px;
+		margin-top: 15px;
 		margin-left: -25px;
 	}
 
@@ -186,7 +192,11 @@
 		margin: 10px auto 15px auto;
 	}
 
+	.text-block_size_small:last-of-type {
+		margin: 15px auto 15px auto;
+	}
 
+	
 	.footer {
 		width: 100%;
 		margin: 0;	
